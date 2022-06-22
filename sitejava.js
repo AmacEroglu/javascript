@@ -29,6 +29,20 @@
 
 // <!-- ödev -->
 
+function gizle(){
+var contents=document.getElementsByClassName("faq-content");
+for (var i = 0; i< contents.length; i++) {
+    contents [i].style.display="none";
+    
+}
+
+}
+
+function goster(id){
+    let content=document.getElementById(id);
+    gizle();
+    content.style.display="block";
+}
     
 
 // <!-- ödev -->

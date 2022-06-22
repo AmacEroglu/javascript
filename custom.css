@@ -1,12 +1,6 @@
 
-.container{
-    display: flex;
-    justify-content: center;
-    margin-top: 100px;
-}
 
 .faq{
-
     list-style: none;
     width: 500px;
     padding: 0;
@@ -14,7 +8,36 @@
 }
 
 .faq li{
-    padding: 2px;
+    padding: 5px 0;
     border: 2px solid rgb(147, 146, 146);
     background-color: rgb(179, 177, 177);
+    padding: 5px;
+    width: 1000px;
+    margin-left: 50%;
+}
+
+.faq li:hover{
+    cursor: pointer;
+    background-color: rgb(163, 157, 157);
+}
+
+.faq-content{
+    width: 1000px;
+    margin-left: 50%;
+    border: 1px solid black;
+    padding: 3px 0;
+    display: none;
+}
+
+.active{
+    display: block;
+}
+
+.faq-head{
+    width: 65%;
+    margin-left: 50%;
+    border: .5px solid purple;
+    background-color: rgb(247, 239, 229);
+    text-align: center;
+
 }
